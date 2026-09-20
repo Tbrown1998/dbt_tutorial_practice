@@ -1,0 +1,28 @@
+[0m13:38:56.948710 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f54d1c34f50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f54d1b8bd50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f54d18d33d0>]}
+
+
+============================== 13:38:57.406797 | 1dddd63f-0968-4311-b530-e2f5f0b3f051 ==============================
+[0m13:38:57.406797 [info ] [MainThread]: Running with dbt=1.12.3
+[0m13:38:57.416393 [debug] [MainThread]: running dbt with arguments {'no_print': 'None', 'hints_enabled': 'True', 'static_parser': 'True', 'warn_error': 'None', 'cache_selected_only': 'False', 'introspect': 'True', 'quiet': 'False', 'target_path': 'None', 'debug': 'False', 'invocation_command': 'dbt init dbt_tutorial_practice --skip-profile-setup', 'version_check': 'True', 'write_json': 'True', 'log_path': 'logs', 'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'maximum_seed_size_mib': '1', 'printer_width': '80', 'empty': 'None', 'send_anonymous_usage_stats': 'True', 'use_experimental_parser': 'False', 'fail_fast': 'False', 'log_cache_events': 'False', 'log_format': 'default', 'profiles_dir': '/home/tosin/.dbt', 'indirect_selection': 'eager', 'use_colors': 'True'}
+[0m13:39:01.154342 [debug] [MainThread]: Starter project path: /mnt/c/Users/hp/Desktop/cde/dbt_modelling/dbt_tutorial_practice/.venv/lib/python3.11/site-packages/dbt/include/starter_project
+[0m13:39:03.039524 [info ] [MainThread]: Your new dbt project "dbt_tutorial_practice" was created!
+Initialized new project in /mnt/c/Users/hp/Desktop/cde/dbt_modelling/dbt_tutorial_practice/dbt_tutorial_practice/dbt_tutorial_practice
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m13:39:03.083483 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 6.900169, "process_in_blocks": "50928", "process_kernel_time": 6.568805, "process_mem_max_rss": "133536", "process_out_blocks": "0", "process_user_time": 14.695387}
+[0m13:39:03.093215 [debug] [MainThread]: Command `dbt init` succeeded at 13:39:03.092904 after 6.93 seconds
+[0m13:39:03.095884 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f54d1b8bd50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f54d1b89a10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f54d1b88450>]}
+[0m13:39:03.099172 [debug] [MainThread]: Flushing usage events
+[0m13:39:06.800829 [debug] [MainThread]: An error was encountered while trying to flush usage events

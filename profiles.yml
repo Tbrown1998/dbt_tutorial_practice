@@ -1,0 +1,12 @@
+dbt_tutorial_practice:
+  target: "{{ env_var('DBT_TARGET', 'dev') }}"
+
+  outputs:
+    dev:
+      type: databricks
+      threads: 8
+      host: "{{ env_var('DEV_HOST') }}"
+      token: "{{ env_var('DATABRICKS_PAT_TOKEN') }}"
+      catalog: "{{ env_var('DEV_CATALOG') }}"
+      schema: "{{ env_var('DEV_SCHEMA') }}"
+      http_path: "{{ env_var('DEV_HTTP_PATH') }}"
