@@ -1,0 +1,7 @@
+sources:
+    name: source
+    database: dbt_tutorial_dev
+    schema: source
+    tables:
+      - name: fact_sales
+
