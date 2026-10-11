@@ -1,0 +1,5 @@
+payment_method,payment_category,is_cash_equivalent,processing_fee_pct
+Card,Electronic,false,0.025
+Cash,Physical,true,0.000
+Digital Wallet,Electronic,false,0.020
+Gift Card,Prepaid,true,0.000
