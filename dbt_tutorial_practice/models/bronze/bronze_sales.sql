@@ -1,2 +1,3 @@
-SELECT *
-FROM dbt_tutorial_dev.source.fact_sales
+SELECT 
+    *
+FROM {{ source('source', 'fact_sales') }} 
