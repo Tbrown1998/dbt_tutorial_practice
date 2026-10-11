@@ -43,4 +43,4 @@ models:
 
 seeds:
   dbt_tutorial_practice:
-    +schema: bronze
+    +schema: source

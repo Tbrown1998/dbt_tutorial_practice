@@ -1,0 +1,9 @@
+snapshots:
+  - name: gold_items
+    relation: ref('silver_items')
+    config:
+      schema: gold
+      unique_key: item_id
+      strategy: timestamp
+      updated_at: updated_at
+      dbt_valid_to_current: "to_date('9999-12-31')" #specifies the default value for dbt_valid_to when a record is current
