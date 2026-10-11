@@ -174,3 +174,19 @@ Runtime Error
 [0m13:44:31.379228 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85c07079d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85c0707190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f85c0706f90>]}
 [0m13:44:31.381747 [debug] [MainThread]: Flushing usage events
 [0m13:44:38.982583 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:29:24.969872 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa0ab827c50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa0ab6f1090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa0aece3dd0>]}
+
+
+============================== 16:29:24.985700 | 9c9bbd44-5865-4aca-a5df-f60854efa75e ==============================
+[0m16:29:24.985700 [info ] [MainThread]: Running with dbt=1.12.3
+[0m16:29:24.988162 [debug] [MainThread]: running dbt with arguments {'maximum_seed_size_mib': '1', 'static_parser': 'True', 'debug': 'False', 'cache_selected_only': 'False', 'introspect': 'True', 'target_path': 'None', 'partial_parse': 'True', 'profiles_dir': '/home/tosin/cde/dbt_modelling/dbt_tutorial_practice', 'no_print': 'None', 'send_anonymous_usage_stats': 'True', 'log_format': 'default', 'invocation_command': 'dbt build', 'warn_error': 'None', 'use_colors': 'True', 'write_json': 'True', 'printer_width': '80', 'empty': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'hints_enabled': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'quiet': 'False', 'version_check': 'True', 'log_cache_events': 'False'}
+[0m16:29:24.990404 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/tosin/cde/dbt_modelling/dbt_tutorial_practice/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m16:29:24.992790 [debug] [MainThread]: Resource report: {"command_name": "build", "command_success": false, "command_wall_clock_time": 0.6332829, "process_in_blocks": "184", "process_kernel_time": 5.495396, "process_mem_max_rss": "108084", "process_out_blocks": "8", "process_user_time": 12.368026}
+[0m16:29:25.003967 [debug] [MainThread]: Command `dbt build` failed at 16:29:25.003643 after 0.64 seconds
+[0m16:29:25.005212 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa0ab6eb390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa0ab5fff10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa0ab826e50>]}
+[0m16:29:25.006496 [debug] [MainThread]: Flushing usage events
+[0m16:29:26.253859 [debug] [MainThread]: An error was encountered while trying to flush usage events
