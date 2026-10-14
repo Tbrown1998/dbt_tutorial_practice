@@ -1,13 +1,19 @@
 # Python and uv
 .venv/
 __pycache__/
+*.pyc
+
+# Editor
 .vscode/
 
 # Secrets: never commit
 .env
 
-# dbt output and dbt's per-machine ID file
+# dbt
 target/
+logs/
 dbt_packages/
-.logs/
 .user.yml
+
+# Elementary
+edr_target/
