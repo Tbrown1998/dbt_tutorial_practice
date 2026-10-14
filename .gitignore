@@ -9,5 +9,5 @@ __pycache__/
 # dbt output and dbt's per-machine ID file
 target/
 dbt_packages/
-logs/
+.logs/
 .user.yml
